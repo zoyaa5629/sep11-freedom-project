@@ -2,12 +2,25 @@ window.onload = function(){
     var game = newPhaser.Game();
 }
 
-// const config = {
-//   type:Phaser.WEBGL
-//   width: 500
-//   height: 500
-//   canvas:gameCanvas
-//   }
+const config = {
+  type:Phaser.WEBGL
+  width: 500
+  height: 500
+  canvas:gameCanvas
+  scene: {
+        preload: preload,
+        create: create,
+        update: update
+    physics:{
+      default:"arcade",
+      arcade:{
+        gravity:{y:speedDown}
+        debug:true
+      }
+            }
+        }
+};
+
 
 const speedDown = 300
 
@@ -29,23 +42,23 @@ class GameScene extends Phaser.Scene{
 
 
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    physics:{
-      default:"arcade",
-      arcade:{
-        gravity:{y:speedDown}
-        debug:true
-      }
-    }
-    }
-};
+// var config = {
+//     type: Phaser.AUTO,
+//     width: 800,
+//     height: 600,
+//     scene: {
+//         preload: preload,
+//         create: create,
+//         update: update
+//     physics:{
+//       default:"arcade",
+//       arcade:{
+//         gravity:{y:speedDown}
+//         debug:true
+//       }
+//     }
+//     }
+// };
 
 var game = new Phaser.Game(config);
 
