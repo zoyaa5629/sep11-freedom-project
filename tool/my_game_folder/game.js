@@ -2,12 +2,12 @@ window.onload = function(){
     var game = newPhaser.Game();
 }
 
-const config = {
-  type:Phaser.WEBGL
-  width: 500
-  height: 500
-  canvas:gameCanvas
-  }
+// const config = {
+//   type:Phaser.WEBGL
+//   width: 500
+//   height: 500
+//   canvas:gameCanvas
+//   }
 
 const speedDown = 300
 
