@@ -69,12 +69,45 @@ class GameScene extends Phaser.Scene{
 ```
 This code is how you add a background. In the video it worked but cannot check right now since cs50 is not working. I need to learn how this works. 
 
+### 11/30/25: 
+This time I took it easy and learned some things that could be useful for me when making my game. 
+
+##### `preload()`
+
+* This function can be used for loading assets. Images, spritesheets, audio, tilemaps, etc.
+
+ ```
+  preload() {
+  this.load.image('player', 'player.png');
+}
+``` 
+
+##### `update()`
+
+* This function adds a Game Loop that repeats the code 60 times a second.
+
+```
+  update() {
+  this.player.x += 1;
+}
+```
+
+##### `create()`
+
+* This function Creates objects, adds sprites, and set up physics.
+
+```
+create() {
+  this.player = this.physics.add.sprite(100, 100, 'player');
+}
+``` 
+
 
  
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
+* C  hallenges, a-ha moments, etc
 * Questions you still have
 * What you're going to try next
 -->
