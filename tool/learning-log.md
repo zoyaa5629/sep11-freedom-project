@@ -102,6 +102,53 @@ create() {
 }
 ``` 
 
+### 1/16/26
+Here is some new stuff I learned from phaser.
+
+##### Animations (Frame control)
+
+* With this you learn how animations are defined as data, how frame timing works, and how enignes separate animation logic from game logic.
+
+```
+this.anims.create({
+  key: 'run',
+  frames: this.anims.generateFrameNumbers('player', { start: 0, end: 5 }),
+  frameRate: 10,
+  repeat: -1
+});
+``` 
+
+##### State & Data Management
+
+* You can learn how to store, update, and share data across a scene, keeping game logic predictable and organized.
+
+```
+this.score = 0;
+
+increaseScore() {
+  this.score += 10;
+}
+```
+
+##### Collision Filtering & Callbacks
+
+* In this you can know how to execute custom logic when objects overlap, how to control which collisions matter, and how to trigger game events.
+
+```
+this.physics.add.overlap(player, coins, (player, coin) => {
+  coin.destroy();
+  this.score += 1;
+});
+```
+
+##### Saving Data
+
+* You learn how to persist player data between sessions and connect gameplay with browser storage systems.
+
+```
+localStorage.setItem('highScore', this.score);
+```
+
 
  
 <!-- 
