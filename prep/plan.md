@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Phaser
+## Product: Quiz Game
 
 ---
 
@@ -9,7 +9,7 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
+- [ ] Start planning a layout (deadline: X)
   - [ ] Subtask (deadline: X)
 
 #### Beyond MVP
