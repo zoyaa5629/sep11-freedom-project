@@ -9,13 +9,22 @@
 
 #### MVP
 
-- [ ] Start planning a layout (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Start planning a layout (deadline: 2/23)
+  - [ ] What subjects (if I use multiple)
+  - [ ] How many questions
+  - [ ] Colourscheme
+- [ ]  Make the basics (deadline: 3/16)
+  - [ ]  Add a background
+  - [ ]  Learn how to add options like a quiz and add them
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Language Options (if I can)
+  - [ ] Spanish
+  - [ ] Hindi
+  - [ ] Arabic
+  - [ ] Russian
+- [ ] Ending Screen telling the user their score and if they want to go back to the main screen
 
 
 <!-- EXAMPLE
