@@ -150,7 +150,7 @@ localStorage.setItem('highScore', this.score);
 ```
 
 ### 3/23/26
-https://www.youtube.com/watch?v=hI_LS8bdkM4&list=PLnEt5PBXuAmtoTvwnF6Ksj7qy1JZHn5Nn&index=2 
+[Video I am using](https://www.youtube.com/watch?v=hI_LS8bdkM4&list=PLnEt5PBXuAmtoTvwnF6Ksj7qy1JZHn5Nn&index=2)
 
 
 <!--
