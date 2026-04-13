@@ -106,12 +106,7 @@
 
 
 // Define the game config
-const config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    scene: [MenuScene, QuizScene, ScoreScene],
-};
+
 
 const game = new Phaser.Game(config);
 
@@ -232,3 +227,10 @@ class ScoreScene extends Phaser.Scene {
         this.sys.game.destroy(true);
     }
 }
+
+const config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    scene: [MenuScene, QuizScene, ScoreScene],
+};
