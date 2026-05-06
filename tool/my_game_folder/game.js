@@ -27,10 +27,10 @@ class Menu extends Phaser.Scene {
     }
 
     create() {
-        this.add.text(250, 100, "Quiz Game", { fontSize: "40px", fill: "#fff" });
+        this.add.text(250, 100, "Quiz Game", { fontSize: "40px", fill: "#fcfafa" });
 
         ["chemistry", "history", "math"].forEach((subj, i) => {
-            this.add.text(300, 250 + i * 50, subj.toUpperCase(), { fill: "#0ff" })
+            this.add.text(300, 250 + i * 50, subj.toUpperCase(), { fill: "#fcfafa" })
                 .setInteractive()
                 .on("pointerdown", () => {
                     subject = subj;
@@ -51,10 +51,10 @@ class Quiz extends Phaser.Scene {
     create() {
         let data = subjects[subject][questionIndex];
 
-        this.add.text(100, 100, data.q, { fontSize: "24px", fill: "#fff" });
+        this.add.text(100, 100, data.q, { fontSize: "24px", fill: "#fcfafa" });
 
         data.a.forEach((ans, i) => {
-            this.add.text(100, 200 + i * 50, ans, { fill: "#0f0" })
+            this.add.text(100, 200 + i * 50, ans, { fill: "#fcfafa" })
                 .setInteractive()
                 .on("pointerdown", () => this.answer(i));
         });
@@ -84,7 +84,7 @@ class Score extends Phaser.Scene {
     create() {
         this.add.text(250, 150, `Score: ${score}`, { fontSize: "32px", fill: "#fff" });
 
-        this.add.text(300, 250, "Play Again", { fill: "#0ff" })
+        this.add.text(300, 250, "Play Again", { fill: "#fcffff" })
             .setInteractive()
             .on("pointerdown", () => this.scene.start("menu"));
     }
