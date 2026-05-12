@@ -5,12 +5,18 @@
 * “The idea for this game started with a simple problem: Why are quizzes in school boring, but quiz games online feel addictive?”
 
 ## Product
-* 
+* Link to project and possibly GIF
 
 ## Process
-* 
+* Freeball the presentation a bit and go off the pictures.
+* Code snippets of what was challenging
+* Break down code since the project itself is straight forward 
 
 ## Conclusion
+* Takeaways:
+  - Pace yourself
+  - Don't get too ambitious
+  - Tinker with your tool more before choosing 
 * 
 
 <!-- EXAMPLE
