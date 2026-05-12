@@ -1,7 +1,8 @@
 # Presentation Plan
 
 ## Hook
-* 
+* “How good is your memory from school? This game puts it to the test.”
+* “The idea for this game started with a simple problem: Why are quizzes in school boring, but quiz games online feel addictive?”
 
 ## Product
 * 
